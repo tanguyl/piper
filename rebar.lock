@@ -1,0 +1,4 @@
+[{<<"blas">>,
+  {git,"https://github.com/erlef/blas.git",
+       {ref,"b97f1879a0c7d55dd30a3a6af67a4852c4570c7d"}},
+  0}].

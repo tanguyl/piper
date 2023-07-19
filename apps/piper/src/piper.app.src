@@ -1,0 +1,15 @@
+{application, piper,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, [piper]},
+  {mod, {piper_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [piper_app, piper]},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
